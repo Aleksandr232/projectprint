@@ -17,7 +17,7 @@ class App extends Component{
             </div>
         </Printer>
         
-          <div style={{position:'absolute', bottom:'300px'}}>
+          <div style={{position:'absolute', bottom:'100px'}}>
           <button
           className='btn btn-info ms-2'
           onClick={() => print(ids)} value='Stampa'
