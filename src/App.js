@@ -1,12 +1,24 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Printer, { print } from 'react-pdf-print'
+
 import './App.css';
 
-function App() {
-  return (
-    <div>
+const ids = ['1']
 
-    </div>
-  );
+class App extends Component{
+  render() {
+    return (
+      <div className='App'>
+        <Printer>
+            <div id={ids[0]} style={{ width:'210mm', height: '297mm' }}>
+                Hello World!
+            </div>
+        </Printer>
+        <input type='button' style={{ position: 'relative', float: 'right' }}
+          onClick={() => print(ids)} value='Stampa' />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
