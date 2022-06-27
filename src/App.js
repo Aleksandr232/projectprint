@@ -12,7 +12,7 @@ class App extends Component{
     return (
       <div className='py-4 container'>
         <Printer>
-            <div id={ids[0]} style={{ width:'1440', height: '597mm' }}>
+            <div id={ids[0]} style={{ width:'210mm', height: '297mm'  }}>
                 <Tables/>
             </div>
         </Printer>

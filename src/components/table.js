@@ -27,8 +27,44 @@ const Tables=()=>{
         </tr>
         <tr>
           <td>3</td>
-          <td colSpan={2}>Larry the Bird</td>
+          <td>Larry the Bird</td>
           <td>@twitter</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
         </tr>
       </tbody>
     </Table>
